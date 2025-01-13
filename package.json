@@ -2,6 +2,7 @@
   "name": "my-practice-app",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://dharmrajtomar.github.io/Gym-website/",
   "dependencies": {
     "@react-icons/all-files": "^4.1.0",
     "@testing-library/jest-dom": "^5.17.0",
