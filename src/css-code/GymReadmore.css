@@ -1,0 +1,39 @@
+.readmore-about {
+    background-color: hsl(0, 0%, 25%);
+    color: white;
+    position: absolute;
+    top: 1180px;
+    width: 850px;
+    margin-left: 40px;
+    font-size: 17px;
+    font-weight: 400;
+
+    .logo {
+        color: white;
+        font-size: 1.9rem;
+        font-weight: 700;
+
+        span {
+            font-weight: 500;
+            color: yellow;
+        }
+    }
+
+    .c-span {
+        font-size: 20px;
+        font-weight: 800;
+        color: yellow;
+        background-color: hsl(0, 0%, 25%);
+        padding: 1px 20px 10px 2px;
+    }
+
+    .c-span:hover {
+        color: white;
+    }
+}
+
+.readmore-second {
+    background-color: hsl(0, 0%, 25%);
+    color: white;
+    width: 1470px;
+}

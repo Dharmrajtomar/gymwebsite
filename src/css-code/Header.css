@@ -1,0 +1,117 @@
+.header-1 {
+    background-image: url("/src/pic/header.webp");
+    height: 850px;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    .header-contaner {
+
+
+        background-color: hsl(0, 0%, 22%);
+        height: 60px;
+        display: flex;
+        padding: 0 2.4rem;
+        margin: 0 auto;
+        color: white;
+        justify-content: space-between;
+
+        .logo {
+            margin-left: 150px;
+            margin-top: 10px;
+            font-size: 2.2rem;
+            font-weight: 700;
+            color: white;
+
+            span {
+                color: yellow;
+            }
+        }
+
+        ul {
+            margin-right: 250px;
+            display: flex;
+            text-transform: capitalize;
+            font-size: 1.4rem;
+            list-style: none;
+            font-weight: 700;
+
+            li {
+                padding-left: 2.8rem;
+
+                a {
+                    text-decoration: none;
+                    color: white;
+                    border-bottom: 3px solid transparent;
+                    border-bottom: 2px solid yellow;
+                }
+
+                a:hover {
+                    border-bottom: 0px;
+                    color: rgb(255, 255, 127);
+                }
+            }
+        }
+
+    }
+
+
+    .section-hero {
+        font-weight: 700;
+        text-transform: uppercase;
+        margin: 250px 340px 0px 200px;
+        color: white;
+
+        .container-hero-box {
+            .heading-1 {
+                font-size: 2.2rem;
+                font-weight: 700;
+            }
+
+            .description {
+                font-family: Georgia, 'Times New Roman', Times, serif;
+                font-weight: 600;
+                font-size: 1.3rem;
+                color: rgb(241, 241, 59);
+            }
+        }
+
+        .btn-group {
+            display: flex;
+            gap: 20px;
+            margin-top: 60px;
+
+            .link-btn {
+                color: white;
+                text-transform: uppercase;
+                /* padding: 0.5rem; */
+                border-radius: 3px;
+                font-family: inherit;
+                font-size: 1.2rem;
+                font-weight: 700;
+                border: none;
+                cursor: pointer;
+                background-color: transparent;
+                /* color: yellow; */
+                /* border: 2px solid white; */
+                transition: background-color 0.3s;
+                text-decoration: none;
+                border-bottom: 3px solid yellow;
+            }
+
+            .link-btn:hover {
+                background-color: rgb(241, 241, 59);
+                color: black;
+                font-style: italic;
+                border: 2px solid black;
+                border-bottom: 2px solid red;
+            }
+        }
+    }
+}
+
+
+.header-contaner {
+
+    position: sticky;
+    top: 0;
+}
